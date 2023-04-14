@@ -1,0 +1,7 @@
+# ece1776
+
+The approach of the project comprises two objectives. The first objective of the project is to determine the coverage of the AFL fuzzer when the input programs are the following GNU coreutils programs in the LAVA-M dataset: base64, md5sum, uniq and who [1]. The second objective of the project is to improve the coverage of the AFL fuzzer when the input programs are the following GNU coreutils programs in the LAVA-M dataset: base64, md5sum, uniq and who [1]
+
+The project comprises two experiments. The first experiment would recreate the study of the associated work that is about the runtime performance of the AFL fuzzer when the size of the bitmap in the AFL fuzzer is modified. The second experiment would extend the study of the associated work after finding the size of the bitmap in the AFL fuzzer based on the input program that would increase the runtime performance of the AFL fuzzer to find the program paths in the input program.
+
+The adjustment to the American Fuzzy Lop fuzzer is located at https://github.com/singh264/AFL/tree/ece1776_final_report. The GitHub repository includes the American Fuzzy Lop fuzzer with the adjustment of logging the attributes of the American Fuzzy Lop coverage that includes the total paths, the total crashes, and the unique crashes during the runtime of the American Fuzzy Lop fuzzer and when the attributes of the American Fuzzy Lop fuzzer coverage is modified during the runtime of the American Fuzzy Lop fuzzer.
